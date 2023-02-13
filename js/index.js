@@ -26,6 +26,7 @@ class Sprite{
 
         };
         this.isAttacking;
+        this.health = 100;
     }
 
     draw(){
@@ -120,6 +121,42 @@ rectangularCollision = ({rectangle1, rectangle2}) => {return (
        rectangle1.attackBox.position.y <= rectangle2.position.y + rectangle2.height 
 )}
 
+determineWinner = ({player, enemy, timerId}) =>{
+    clearTimeout(timerId);
+    document.querySelector("#displayText").style.display = 'flex';
+    if(player.health == enemy.health){
+        document.querySelector("#displayText").innerHTML = 'Tie';
+    }
+    else if(player.health > enemy.health){
+        document.querySelector("#displayText").innerHTML = 'Player one wins';
+
+    }
+    else if(player.health < enemy.health){
+        document.querySelector("#displayText").innerHTML = 'Player one wins';
+
+    }
+}
+
+
+let timer = 75;
+let timerId;
+decreaseTimer = () =>{
+    
+    if(timer > 0) {
+        timer--;
+        timerId= setTimeout(decreaseTimer, 1000)
+        document.querySelector("#timer").innerHTML = timer;
+    }
+
+    if(timer ==0){
+       
+        determineWinner({player, enemy, timerId});
+    }
+    
+}
+
+decreaseTimer();
+
 animate = ()=>{
     
     window.requestAnimationFrame(animate);
@@ -156,9 +193,27 @@ animate = ()=>{
        player.isAttacking
         ){
         player.isAttacking = false;
-        console.log("enemy attack successful");
+        enemy.health -= 20;
+        document.querySelector('#enemyHealth').style.width = enemy.health + "%"; 
+        
     }
 
+    if( rectangularCollision({
+        rectangle1: enemy,
+        rectangle2: player
+    })&&
+       enemy.isAttacking
+        ){
+        enemy.isAttacking = false;
+        player.health -= 20;
+        document.querySelector('#playerHealth').style.width = player.health + "%"; 
+        
+    }
+
+    //end the game based on health
+    if(enemy.health <=0 || player.health <=0){
+        determineWinner({player,enemy, timerId});
+    }
     
 }
 
