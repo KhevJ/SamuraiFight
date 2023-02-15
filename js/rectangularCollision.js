@@ -16,7 +16,7 @@ determineWinner = ({player, enemy, timerId}) =>{
 
  }
  else if(player.health < enemy.health){
-     document.querySelector("#displayText").innerHTML = 'Player one wins';
+     document.querySelector("#displayText").innerHTML = 'Player two wins';
 
  }
 }
