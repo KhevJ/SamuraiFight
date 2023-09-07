@@ -1,10 +1,16 @@
 # SamuraiFightingGame
 
 This is a fighting game in javascript.
+Only works on a computer/PC
 
 
 Tutorial on how to play:
 
 Player1:
-|Moves| Command|
-|Move forward|
+|MOVES|COMMAND|
+|-----|-------|
+|Move forward| key d|
+|Move backward| key a|
+|Jump| key w|
+|Slash| key space|
+
