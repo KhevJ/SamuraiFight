@@ -14,3 +14,10 @@ Player1:
 |Jump| key w|
 |Slash| key space|
 
+Player2:
+|MOVES|COMMAND|
+|-----|-------|
+|Move forward| Arrow ->|
+|Move backward| Arrow <-|
+|Jump| Arrow Up|
+|Slash|Arrow Down|
