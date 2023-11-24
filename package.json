@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jest-canvas-mock": "^2.5.2"
+  },
+  "name": "samuraifight",
+  "description": "Welcome to the Samurai Fight Game! This is a simple browser-based game where two samurai characters battle it out. Players can move their characters and perform slashing attacks, with the goal of reducing their opponent's health to win the game.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --env=jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

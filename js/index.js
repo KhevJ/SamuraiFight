@@ -327,3 +327,5 @@ window.addEventListener('keyup', (event) => {
       break
   }
 })
+
+module.exports = { canvas, c };
