@@ -26,8 +26,7 @@ Include a link or GIF that showcases your game in action.
     |Move backward| key a|
     |Jump| key w|
     |Slash| key space|
-  
-  -Player2:
+  - Player2:
     |MOVES|COMMAND|
     |-----|-------|
     |Move forward| Arrow ->|
@@ -62,11 +61,22 @@ Enjoy the fight and aim to defeat your opponent!
 ## Contributing
 If you'd like to contribute to this project, please follow these steps:
 
-1.Fork the project.
-2.Create your feature branch: git checkout -b feature/my-feature.
-3.Commit your changes: git commit -m 'Add some feature'.
-4.Push to the branch: git push origin feature/my-feature.
-5.Submit a pull request
+1. Fork the project.
+2. Create your feature branch:
+  ```bash
+  git checkout -b feature/my-feature.
+
+
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add some feature'.
+
+4. Push to the branch:
+    ```bash
+    git push origin feature/my-feature.
+
+
+5. Submit a pull request
 
 ## License
 This project is licensed under the MIT License.
