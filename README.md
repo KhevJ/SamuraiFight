@@ -19,6 +19,17 @@ Include a link or GIF that showcases your game in action.
 ## Features
 
 - **Player Movement:** Move samurai characters using arrow keys.
+- **Attacks (Slashing):** Trigger slashing actions to reduce opponent's health.
+- **Health Bars:** Visual representation of each player's remaining health.
+- **Timer:** Countdown timer to determine the winner based on health points.
+
+
+
+## How to Play
+
+1. Use the arrow keys to move your samurai character.
+2. Perform slashing attacks to reduce your opponent's health.
+3. The player with the highest health when the timer reaches zero wins.
   - Player1:
     |MOVES|COMMAND|
     |-----|-------|
@@ -33,18 +44,7 @@ Include a link or GIF that showcases your game in action.
     |Move backward| Arrow <-|
     |Jump| Arrow Up|
     |Slash|Arrow Down|
-  
-- **Attacks (Slashing):** Trigger slashing actions to reduce opponent's health.
-- **Health Bars:** Visual representation of each player's remaining health.
-- **Timer:** Countdown timer to determine the winner based on health points.
-
-
-
-## How to Play
-
-1. Use the arrow keys to move your samurai character.
-2. Perform slashing attacks to reduce your opponent's health.
-3. The player with the highest health when the timer reaches zero wins.
+   
 
 ## Installation
 
