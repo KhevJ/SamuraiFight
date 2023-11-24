@@ -33,6 +33,7 @@ Include a link or GIF that showcases your game in action.
     |Move backward| Arrow <-|
     |Jump| Arrow Up|
     |Slash|Arrow Down|
+  
 - **Attacks (Slashing):** Trigger slashing actions to reduce opponent's health.
 - **Health Bars:** Visual representation of each player's remaining health.
 - **Timer:** Countdown timer to determine the winner based on health points.
@@ -63,19 +64,14 @@ If you'd like to contribute to this project, please follow these steps:
 
 1. Fork the project.
 2. Create your feature branch:
-  ```bash
-  git checkout -b feature/my-feature.
-
-
+    ```bash
+    git checkout -b feature/my-feature.
 3. Commit your changes:
    ```bash
    git commit -m 'Add some feature'.
-
 4. Push to the branch:
     ```bash
     git push origin feature/my-feature.
-
-
 5. Submit a pull request
 
 ## License
