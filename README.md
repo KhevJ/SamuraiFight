@@ -24,7 +24,7 @@ https://samurai-fight-khevj.vercel.app
 - **Player Movement:** Move samurai characters using arrow keys.
 - **Attacks (Slashing):** Trigger slashing actions to reduce opponent's health.
 - **Health Bars:** Visual representation of each player's remaining health.
-- **Timer:** Countdown timer to determine the winner based on health points.
+- **Timer:** Countdown timer of 50s to determine the winner based on health points.
 
 
 
