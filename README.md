@@ -56,8 +56,14 @@ https://samurai-fight-khevj.vercel.app
    ```bash
    https://github.com/KhevJ/SamuraiFight.git
 
+2. On that same directory
+   ``` bash
+    cd SamuraiFight && npm start
+
 
 ## Usage
+
+
 Open index.html in your preferred web browser.
 Follow the on-screen instructions to control your samurai character.
 Enjoy the fight and aim to defeat your opponent!
