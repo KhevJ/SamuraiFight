@@ -51,7 +51,7 @@ Include a link or GIF that showcases your game in action.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/samurai-fight-game.git
+   https://github.com/KhevJ/SamuraiFight.git
 
 
 ## Usage
