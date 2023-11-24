@@ -16,7 +16,7 @@ This is game was made using Javascript and HTML/CSS. The testing was done using 
 
 ## Demo
 
-[https://samurai-fight-khevj.vercel.app](url)
+https://samurai-fight-khevj.vercel.app
 <br>This is the link where you can play the game.
 
 ## Features
