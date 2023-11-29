@@ -2,7 +2,7 @@
 
 Welcome to the Samurai Fight Game! This is a simple browser-based game where two samurai characters battle it out. Players can move their characters and perform slashing attacks, with the goal of reducing their opponent's health to win the game.
 
-This is game was made using Javascript and HTML/CSS. The testing was done using Jest.
+This game was made using Javascript and HTML/CSS. The testing was done using Jest.
 
 ## Table of Contents
 
